@@ -33,6 +33,10 @@ const UserSchema = new Schema(
       default: 51,
       type: Number
     },
+    password: {
+      type: String,
+      required: true,
+    },
     description: {
       type: String
     },
