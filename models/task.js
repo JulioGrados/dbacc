@@ -25,6 +25,9 @@ const TaskSchema = new Schema(
     },
     color: {
         type: String
+    },
+    status: {
+      type: String
     }
   },
   {
